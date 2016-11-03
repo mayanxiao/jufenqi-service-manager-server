@@ -51,11 +51,7 @@ export default {
     components: {
     },
     ready() {
-      this.$http.get(`${Lib.C.mOrderApi}materialSubOrders`, {
-        params: {
-          filter: `guideId:${JSON.parse(window.localStorage.getItem('user')).userId}|status:[1,7]`
-        }
-      }).then((res) => {
+      this.$http.get(`${Lib.C.mOrderApi}materialSubOrders/all?serviceManagerId=${JSON.parse(localStorage.user).userId}`).then((res) => {
         res.data.data.map((e) => {
           this.zcList.push(e)
         })
