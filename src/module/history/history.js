@@ -1,5 +1,8 @@
+if (!window.localStorage.getItem('service-manager')) {
+  window.location.href = `./verifyPhone.html`
+}
 import Vue from 'vue'
-import App from 'common/views/zc-order-detail/app'
+import App from './app'
 import vueTap from 'v-tap'
 
 Vue.use(vueTap)

@@ -1,5 +1,5 @@
-if (!window.localStorage.getItem('user')) {
-  window.location.href = `./wxAuth.html?url=index.html`
+if (!window.localStorage.getItem('service-manager')) {
+  window.location.href = `./verifyPhone.html`
 }
 import Vue from 'vue'
 import App from './app'
