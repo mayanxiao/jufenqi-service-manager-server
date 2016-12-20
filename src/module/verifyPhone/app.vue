@@ -36,7 +36,8 @@ export default {
             axios.post(`${Lib.C.userApi}auth/login`, {}, {
                 params: {
                     account: this.phoneNumber,
-                    password: this.password
+                    password: this.password,
+                    type: 8
                 },
                 withCredentials: true,
                 responseType: true
