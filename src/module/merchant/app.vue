@@ -18,7 +18,7 @@ import Lib from 'assets/Lib.js'
 import Loading from 'vux-components/loading'
 import axios from 'axios'
 import vSelect from "vue-select"
-import merchantName from "./merchantName.js"
+import merchantName from "assets/merchantName.js"
 import Verify from 'components/Verify'
 
 export default {
