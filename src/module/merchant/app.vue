@@ -19,7 +19,7 @@ import Loading from 'vux-components/loading'
 import axios from 'axios'
 import vSelect from "vue-select"
 import merchantName from "./merchantName.js"
-
+import Verify from 'components/Verify'
 
 export default {
     data() {
@@ -31,7 +31,7 @@ export default {
         }
     },
     components: {
-        Loading, vSelect
+        Loading, vSelect, Verify
     },
     methods: {
         gotoSubmit() {
