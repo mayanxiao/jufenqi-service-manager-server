@@ -16,9 +16,10 @@
 </div>
 </template>
 <script>
+import Lib from 'assets/Lib.js'
 import Conf from 'common/conf'
 import axios from 'axios'
-Lib.M.auth(axios)
+
 export default {
   data() {
     return {
