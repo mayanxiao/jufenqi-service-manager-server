@@ -1,4 +1,4 @@
-if (!window.localStorage.getItem('service-manager-register')) {
+if (!window.localStorage.getItem('register-phoneNumber')) {
   window.location.href = `./register.html`
 }
 
