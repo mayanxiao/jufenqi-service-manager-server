@@ -36,7 +36,6 @@ export default {
         Loading, vSelect, Verify
     },
     ready() {
-        axios.defaults.headers.common['Authorization'] = 'Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODM1NTQyMTksInVzZXJfbmFtZSI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiI3OTY5YjlmMC1lNGQ1LTQ1OTItOTFlMy04MTYwNDU5ZGQwZWQiLCJjbGllbnRfaWQiOiJ3ZWJfYXBwIiwic2NvcGUiOlsib3BlbmlkIl19.NtavMVJFVnEut2-bZjY6EhGkiiguXQH7HRsgVaET6uayYNf96Zd7jSXmbLtYLNBukVBB5qb51IRYSvAinG7I5G_8tbIqey8E9aGkK1ym6x8xbcuiRvYUNzzgFO0Oj_iTLdZR9At0tHOT3lrajSVf5AUbmZzfyJEFCnBn41dDFqLgTa9ukOLjoLaGXNF4L9G6Ly3wHezgWfF6qpqOP50EosiT8lFg5g9IWwwD3K_2MIgfwfy-smfJ4dsfDIdRjVhEJR7ZG049FUrjHuBAduslvB0wn0ys_tGQ4lEgm6OrBUAk4OwgzTExPwL3o0nqPRZT3fm91chh7XjPh1SYFsnTyQ'
         axios.get(`${Lib.C.merApi}stores`, {
             params: {
                 size: 1000
