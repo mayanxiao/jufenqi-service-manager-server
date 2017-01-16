@@ -24,8 +24,8 @@ export default {
                 icon: inIcon,
                 actIcon: inIconAct
             }, {
-                name: '历史订单',
-                ename: 'history',
+                name: '退款订单',
+                ename: 'refund',
                 icon: indexIcon,
                 actIcon: indexIconAct
             }, {
